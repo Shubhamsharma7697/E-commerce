@@ -1,0 +1,627 @@
+/* phone css  */
+
+@media only screen and (max-width:950px) {
+    /* body{
+        width: 100%;
+        width: 100%;
+    } */
+    .home{ 
+        width: 100%;
+        gap: 10px;
+    }
+    .home .col2{
+        scale: 0.8;
+    }
+    .home .col1 p{
+      
+       padding: 0 155px;
+       line-height: 1.1rem;
+    }
+    
+   
+    
+    
+  
+
+
+
+
+
+
+
+
+    /* *************************for menu  ************************/
+    .navbar ul{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        position: absolute;
+        flex-direction: column;
+        top: 70px;
+        left: 0px;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+  
+    }
+    .navbar ul li{
+        display: block;
+        margin-left: 75vw;
+    }
+
+     .navbar{
+        padding: 35px 5px;
+        width: 100%;
+
+     }
+     .menu-icon{
+        display: block;
+        cursor: pointer;
+     }
+
+
+
+     /* *******************for brand css ****************** */
+     .brand{
+        display: none;
+     }
+     
+
+
+
+
+
+
+
+
+
+
+    /* **************************for home**************************  */
+
+    .home{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 30%; 
+    }
+    .home .col1{
+        text-align: center;
+    }
+    .home .col1 h1{
+        padding: 20px 0;
+        font-size: 2rem;
+     
+     }
+     .home .col1 p{
+        margin-bottom: 20px;
+        font-size: 0.9rem;
+
+     }
+     .home-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid black; */
+        width: 120px;
+        padding: 15px 0px;
+        border-radius: 5px;
+        padding-left: 5px;
+        background: rgb(167, 20, 220);
+        color: white;
+        transition: 1s all ease;
+        margin: 0 230px; 
+    }
+    .home .col2 img{
+        width:350px;
+        height: 350px;
+
+    }
+
+
+
+
+
+
+
+
+
+    /* ***************************page-2 css ************************ */
+    
+    .page2-img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           height: 100%;
+           flex-wrap: wrap;
+           padding: 30px 0;
+           width: 100%;
+        
+        
+          
+            
+    }
+    .page2-col img{
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+      
+     }
+    section{
+        height: 100%;
+        width: 100%;
+       
+        overflow: hidden;
+    
+    }
+    .page2-col{
+        width: 200px;
+        height:230px;
+        padding: 10px 0;
+
+       
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ****************************page-3 css ******************************* */
+
+    .page3 h2,.page4 h2{
+        font-size: 2.2rem;
+    }
+    .page3-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 23px;
+         
+         
+    }
+    .page3,.page4{
+      
+        position: relative;
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+      
+    }
+    .page3 h2::after,.page4 h2::after{
+        content: "";
+        width: 30%;
+        height: 100%;
+        border-bottom: 5px solid salmon;
+        position: absolute;
+        top: 0;
+        left: 35%;
+        z-index: 1;
+    
+    }
+
+
+
+    .page3-col h4{
+        float: left;
+    }
+
+
+
+
+
+   /* ***************************page6 css ************************************ */
+
+    .page6::before{
+        content: "";
+        position: absolute;
+        top:140px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      
+        z-index: -1;
+    
+    
+      
+        
+    }
+
+    .page6{
+        width: 100%;
+        height: 100%;
+       
+
+    }
+
+    .page6-watch{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0;
+        margin-left: 15px;
+        flex-wrap: wrap;
+       
+       
+        
+    }
+    .page6-watch .watch-img img{
+        width: 200px;
+        height: 200px;
+
+
+    }
+    .watch-content h1,p,h5{
+        text-align: center;
+
+    }
+    .watch-content p{
+        padding: 0px 22%;
+        font-size: 0.7rem;
+        font-family: sans-serif;
+      
+    }
+
+    .page6::before{
+        content: "";
+        position: absolute;
+        top:70px;
+        left: 0;
+        width: 100%;
+        height: 70vh;
+        background: rgba(160, 155, 156, 0.32);
+        z-index: -1;     
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /******************************* page 7 css ************************************* */
+
+    .page7{
+        position: relative;
+
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+    
+    
+    }
+    .services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        flex-wrap: wrap;
+       
+    
+    }
+    .services-box{
+   
+     
+        background: white;
+      
+        width: 400px;
+        height: 400px;
+        margin: 25px 15px;
+        transition: 1s all ease;
+    }
+ 
+
+
+
+    /* ***********************company css ************************** */
+
+
+    .company{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        width: 100%;
+       
+    }
+    .company-1 img{
+        scale: 0.7;
+    }
+
+
+
+
+
+
+
+  /* **********************************footer css ************************************************* */
+
+
+    .footer-container{
+        background: #000;
+        width: 100%;
+        height: 100%;
+        padding: 0rem 9% 5rem;
+        
+        
+    
+       
+    }
+    .footer-row{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.504);
+        padding-bottom: 25px;
+        flex-wrap: wrap;
+        width: 100%;
+    
+        
+       
+        
+    }
+    .footer-col-1 img,h2,h4{
+        text-align: center;
+      
+    }
+    .footer-col-1 img{
+        margin: 0 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* *********************product details ********************* */
+
+   .rowdetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+   }
+   .row-related h1{
+    font-size: 1.5rem;
+}
+.allproducts .all h1 {
+    font-size: 1.5rem;
+}
+select{
+scale: 0.9;
+}
+
+
+
+/* **************************account**************************  */
+.rowaccount{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 65px;
+    
+  
+}
+
+
+select option{
+    font-size: 0.5rem;
+    
+}
+
+
+/* about css  */
+.row-about{
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.col1about{
+    padding:5px;
+}
+.col1about .btn{
+margin-left: 40%;
+}
+.col1about img{
+    box-shadow: 0 0 1rem rgba(35, 23, 4, 0.832);
+}
+.col1about h2{
+    font-size: 3.1rem;
+}
+.col1about p{
+    margin: 25px 0;
+    font-size: 1rem;
+   line-height: 1.5rem;
+   
+}
+.col1about span{
+color: rgb(255, 64, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **********************************about*************************** */
+
+.row-about{
+ 
+    margin-top: 50px;
+}
+.col1about img{
+   
+    width: 300px;
+    height: 300px;
+}
+.col1about button.btn{
+    margin-left: 5em;
+}
+
+
+
+
+/* *************************account*********************** */
+.col1account img{
+    width: 25em;
+    height: 25em;
+}
+.rowaccount{
+    margin-top: 30px;
+   gap: 50px;
+  
+}
+
+.rowlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+    gap: 25px;
+    cursor: pointer;
+
+    
+}
+
+.formlogin{
+    
+    gap: 10%;
+    transform: translateX(8%);
+}
+
+form.formloginbox {
+    margin-left:8%;
+}
+
+
+
+
+
+
+
+
+/* cart css  */
+
+
+.colcart h2{
+    font-size: 1rem;
+}
+
+
+.cart-col {
+     flex-direction: column;
+    gap: 0px;
+}
+.cart-col img{
+    scale: 0.7;
+}
+
+
+.cart-row .input-cart{
+    display: block;
+    margin-right: 0px;
+
+}
+.cart-row .input-cart input{
+    margin-right: 1.9rem;
+    margin-bottom: 3rem;
+    
+}
+.amount-cart h1{
+    margin-bottom: 3rem;
+}
+
+
+
+.cartcontain h4,h5,h6{
+   margin: 3px 0;
+   font-size: 0.7rem;
+}
+.cartcontain h6{
+  color: red;
+  font-size: 0.7rem;
+  margin-left: 2rem;
+}
+
+
+.linebox a{
+   font-size: 0.4rem;
+   scale: 1;
+}
+.linebox i{
+    font-size: 0.7rem;
+    margin-bottom: 0.1rem;
+}
+.linebox{
+    scale: 1;
+}
+ 
+
+
+
+
+
+.col1about button.new{
+    margin-left: 1em;
+}
